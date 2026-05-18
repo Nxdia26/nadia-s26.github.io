@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href= "style.css" type= "text/css" rel="stylesheet"/>
+<link href="style.css" type="text/css" rel="stylesheet"/>
 <title>Marshi Stickers</title>
-<style>
 
+<style>
 
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #9dc4a0;
     text-align: center;
+}
+
+.main-title {
+    padding: 20px;
+    color: #333;
 }
 
 ul {
@@ -33,8 +38,9 @@ ul li a {
     text-decoration: none;
 }
 
-
-
+ul li a:hover {
+    background-color: #111111;
+}
 
 .container {
     display: flex;
@@ -43,7 +49,6 @@ ul li a {
     gap: 30px;
     padding: 50px 20px;
 }
-
 
 .card {
     background-color: #f1f1f1;
@@ -58,13 +63,17 @@ ul li a {
     transform: scale(1.05);
 }
 
-
 .card img {
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
+.price {
+    font-size: 20px;
+    color: #555;
+    font-weight: bold;
+}
 
 .card h2 {
     margin: 15px 0 10px;
@@ -72,11 +81,8 @@ ul li a {
     color: #333;
 }
 
-
-.price {
-    font-size: 20px;
-    color: #555;
-    font-weight: bold;
+.btn:hover {
+    background-color: #9dc4a0;
 }
 
 </style>
@@ -85,9 +91,9 @@ ul li a {
 
 <body>
 
-<h1 class="main-title"><p>
-15% Discount: May 13th – June 1st
-</h1><p>
+<h1 class="main-title">
+    15% Discount: May 13th – June 1st
+</h1>
 
 <ul>
     <li><a href="index.html">Stickers</a></li>
@@ -150,7 +156,7 @@ ul li a {
         <img src="Mystery_Marshi.png" alt="Mystery Marshi">
         <h2>Mystery Marshi Pack</h2>
         <div class="price">$30</div>
-        <h5>(Includes 6 stickers including the box) </h5>
+        <h5>(Includes 6 stickers including the box)</h5>
     </div>
 
 </div>
